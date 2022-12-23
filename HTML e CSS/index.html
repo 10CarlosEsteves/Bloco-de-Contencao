@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Igreja Sacrosanta do Ferris - Contatos</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="rust.css">
+    </head>
+    <body>
+        <header>
+            <div class = "Cabecalho">
+                <h1><img src="rustacean-orig-noshadow.png"></h1>
+                <nav>
+                    <ul>
+                        <li><a>Home</a></li>
+                        <li><a>Produtos</a></li>
+                        <li><a>Contatos</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Horários</th>
+                        <th>Segunda</th>
+                        <th>Terça</th>
+                        <th>Quarta</th>
+                        <th>Quinta</th>
+                        <th>Sexta</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>7:00 - 8:00</td>
+                        <td>Oficina de introdução ao Rust</td>
+                        <td>O nascimento do crustáceo</td>
+                        <td>O futuro será a oxidação</td>
+                        <td>Reescrevendo o Kernel Linux</td>
+                        <td>Hello World em Rust</td>
+                    </tr>
+                    <tr>
+                        <td>8:00 - 10:00</td>
+                        <td>Por que Rust>C++?</td>
+                        <td>Culto ao Ferris</td>
+                        <td>Por que Rust>C++?</td>
+                        <td>O nascimento do crustáceo</td>
+                        <td>Boas práticas em Rust</td>
+                    </tr>
+                    <tr>
+                        <td>10:00 - 11:00</td>
+                        <td>O futuro será a oxidação</td>
+                        <td>Reescrevendo o Kernel Linux</td>
+                        <td>O nascimento do crustáceo</td>
+                        <td>A redenção do C++</td>
+                        <td>Tipos de crustáceos</td>
+                    </tr>
+                    <tr>
+                        <td>11:00 - 12:00</td>
+                        <td>Culto ao Ferris</td>
+                        <td>Reescrevendo o Kernel Linux</td>
+                        <td>Oficina de introdução ao Rust</td>
+                        <td>O futuro será a oxidação</td>
+                        <td>Cerimonia de Encerramento</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <form>
+                <fieldset class = "fieldset1">
+                    <label for="Nome">Nome</label>
+                    <input type="text" id="Nome" required placeholder="Ferris">
+
+                    <label for="Sobrenome">Sobrenome</label>
+                    <input type="text" id="Sobrenome" required placeholder="The Crab">
+
+
+
+                    <label for="Telefone">Telefone para contato</label>
+                    <input type="tel" id="Telefone" required placeholder="(XX) XXXXX-XXXX">
+
+                    <label for="Email">Email para contato</label>
+                    <input type = "email" id="Email" required placeholder="thecrab@rust">
+                </fieldset>
+
+                <fieldset class = "fieldset2">
+                    <div>
+                        <legend>Nivel de Programação</legend>
+                        <label for="radio-iniciante"><input type="radio" name="nivel" value="iniciante" id="radio-iniciante">Iniciante</label>
+                        <label for="radio-avançado"><input type="radio" name="nivel" value="avançado" id="radio-avançado">Avançado</label>
+                        <label for="radio-mestre"><input type="radio" name="nivel" value="mestre" id="radio-mestre">Mestre</label>
+                    </div>
+                    <div>
+                        <legend>Selecione os dias</legend>
+                        <label for="radio-conjunto1"><input type="radio" name="dias" value="iniciante" id="radio-conjunto1">Segunda/Quarta/ Sexta</label>
+                        <label for="radio-conjunto2"><input type="radio" name="dias" value="avançado" id="radio-conjunto2">Terça/Quinta/Sexta</label>
+                        <label for="radio-conjunto3"><input type="radio" name="dias" value="mestre" id="radio-conjunto3">Todos os dias da semana</label>
+                    </div>
+                </fieldset>
+            </form>
+
+            <div style="text-align: center;">
+                <input type="submit" value="Juntar-se Agora!" class="Botao">
+            </div>
+            
+        </main>
+
+        <footer>
+            <img src="rustacean-orig-noshadow.png">
+            <p>&copy;Todos os Direitos Reservados ao Ferris</p>
+        </footer>
+    </body>
+
+
+</html>
