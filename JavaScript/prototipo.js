@@ -43,6 +43,16 @@ console.log("Exemplo de String: " + nome);
 console.log("Tamanho da String: "+nome.length);
 console.log("Imprimindo cada letra do meu nome:");
 
-for(x=0; x<nome.length ;x++){
+for(let x=0; x<nome.length ;x++){
     console.log(nome.charAt(x));
+}
+
+console.log("=======================================================");
+console.log("Qual será o comportamento quando tentamos dividir por números\n cada vez mais próximos do 0 mas nunca 0. Como o limite:");
+console.log("LIM x->0 1/X")
+let x = 1;
+
+while(x!=0){
+    console.log("X = " + x +" | 1/X = " + 1/x);
+    x= x/10;
 }
