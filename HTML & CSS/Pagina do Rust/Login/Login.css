@@ -1,0 +1,87 @@
+body{
+    background: linear-gradient(90deg, blue, red)
+}
+
+.Links {
+    max-width: 1500px;
+    margin:  0 0 0 10px;
+}
+
+.Links a:first-of-type{
+    border-right: 1px solid black;
+}
+
+.Links a{
+    text-decoration: none;
+    text-align: justify;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 0 15px;
+}
+
+.Links a:hover{
+    color:red;
+}
+
+.Login{
+    max-width: 400px;
+    height: 500px;
+    margin: 5% auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.div1{
+    height: 20%;
+}
+
+.div1 legend{
+    position: relative;
+    top:30%;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.div2{
+    height: 60%;
+}
+
+
+.div2 input{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid grey;
+    top:30%;
+    margin: 1.2em auto;
+    padding: 5px 5px;
+    width: 90%;
+    height: 2.0em;
+    position: relative;
+    display: block;
+}
+
+
+.div3{
+    height: 20%;
+}
+
+.Botao{
+    padding: 10px 10px;
+    width: 50%;
+    color: white;
+    font-size: 1.1em;
+    border-style: none;
+    box-sizing: border-box;
+    background-color: blue;
+    border-radius: 5px;
+}
+
+.Botao:hover{
+    cursor: pointer;
+    color:red;
+    transform: scale(1.2);
+}
