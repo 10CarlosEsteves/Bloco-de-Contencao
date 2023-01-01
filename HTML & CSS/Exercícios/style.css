@@ -1,0 +1,118 @@
+body{
+    background-color: grey;
+
+}
+
+.Cabecalho, main{
+    background-color: white;
+    margin: 0 auto;
+    width: 1200px;
+    box-sizing: border-box;
+}
+
+.texto-inicial{
+    padding: 10px 15px;
+    border-bottom: 1px solid black;
+}
+
+.texto-inicial h1{
+    text-align: end;
+    font-size: 2em;
+    font-weight: bold;
+
+}
+
+.texto-inicial p{
+    text-align: end;
+    font-size: 1.2em;
+}
+
+.Cabecalho nav{
+    margin-top: 5px;
+    background-color: black;
+}
+
+.Cabecalho li:first-of-type{
+    background-color: darkgrey;
+    border: none;
+}
+
+.Cabecalho li{
+    display: inline-block;
+    padding: 5px 10px;
+    border-left: 1px solid white;
+}
+
+.Cabecalho a{
+    text-decoration: none;
+    color: white;
+}
+
+.Cabecalho a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+
+main{
+    padding: 10px 5px;
+}
+
+.Side-box{
+    background-color: white;
+    width: 20%;
+    display: inline-block;
+    border: 1px solid #58B296;
+}
+
+.Side-box h1{
+    padding: 10px 0;
+    font-size: 1.3em;
+    text-align: center;
+    font-weight: bold;
+    background-color: #58B296;
+}
+
+.Imagem1 img{
+    float: right;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.Listas-side h2{
+    clear: right;
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: 1.1em;
+    background-color: #58B296;
+    text-align: center;
+}
+
+.Listas-side ul{
+    padding: 10px 0;
+}
+
+.Listas-side li{
+    padding: 2px 0;
+    width: 50%;
+    margin: 0 auto;
+}
+
+/*Desenvolvendo a parte do artigo*/
+.Artigo{
+    margin: 0 2.5% ;
+    vertical-align: top;
+    display: inline-block;
+    width: 70%;
+}
+.Artigo h1{
+    padding: 5px 0;
+    font-size: 1.4em;
+    font-weight: bold;
+    text-align: start;
+    border-bottom: 1px solid black;
+}
+
+.Artigo p{
+    padding: 5px 0;
+    text-align: justify;
+}
