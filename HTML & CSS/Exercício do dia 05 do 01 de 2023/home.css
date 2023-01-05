@@ -1,0 +1,150 @@
+*, *::before, *::after{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gray;
+}
+
+.div_principal{
+    width: 100%;
+    max-width: 1200px;
+    min-width: 900px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+header > hgroup{
+    width: 100%;
+    background-color: rgb(0, 236, 158);
+    padding: 15px 15px;
+    color: black;
+}
+
+header > hgroup >h1{
+    font-size: 2em;
+    font-weight: bold;
+    text-align: right;
+
+}
+
+header > hgroup > h2{
+    font-size: 1.2em;
+    text-align: right;
+}
+
+header > nav{
+    background-color: black;
+}
+
+header > nav > ul > li{
+    display: inline;
+}
+
+header > nav > ul > li > a{
+    float: left;
+    text-decoration: none;
+    border-left: 1px solid white;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 10px;
+}
+
+header > nav > ul > li:first-child> a{
+    background-color: rgb(173, 173, 173);
+}
+
+header > nav > ul > li:first-child> a:hover{
+    background-color: rgb(173, 173, 173);
+    color: rgb(255, 0, 0);
+}
+
+
+header > nav > ul > li> a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+
+header > nav > ul > li:nth-child(5)> a{
+    border-right: 1px solid white;
+}
+
+.clear{
+    clear: both;
+}
+
+.Artigo{
+    width: 100%;
+    margin: 15px 0;
+}
+
+.Artigo article > h2{
+    margin: 0 2%;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+
+.Aside-Synth{
+    margin-top: 20px;
+    border: 1px solid black;
+    width: 20%;
+    float: right;
+    margin-right: 2%;
+}
+
+.Aside-Synth h2{
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(0, 236, 158);
+    padding: 10px 0;
+}
+
+.Aside-Synth img{
+    width: 100%;
+}
+
+.Aside-Synth ul{
+    padding: 10px 0;
+}
+
+.Aside-Synth ul li{
+    width: 60%;
+    margin: 0 auto;
+    padding: 2px 0;
+}
+
+.Aside-Synth ul li::before{
+    content: "•";
+}
+
+.Coletanea{
+    float: left;
+    width: 75%;
+    margin-left: 2%;
+}
+
+.Coletanea section{
+    margin: 20px 0;
+}
+
+.Coletanea > section h2{
+    font-size: 1.5em;
+    border-bottom: 1px solid black;
+    margin-bottom: 5px;
+}
+
+.Coletanea > section > p{
+    margin-top: 10px;
+    text-align: justify;
+}
+
+footer{
+    padding: 30px 0;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
