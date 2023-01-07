@@ -1,41 +1,37 @@
 <!DOCTYPE html>
-
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Login - Rust</title>
-        <link rel="stylesheet" href="../Essencial/reset.css">
+        <title>Rust - Login</title>
         <link rel="stylesheet" href="Login.css">
     </head>
 
-    <body>
-
-        <header class="Links">
-            <a href="../Home/index.html">Home</a>
-            <a href="../Cadastros/Cadastro.html">Cadastrar-se</a>
+    <body class="Corpo">
+        <header class="Cabecalho">
+            <ul>
+                <li><a href="../Home/index.html">Home</a></li>
+                <li><a href="../Cursos/Cursos.html">Cursos</a></li>
+                <li><a href="../Cadastros/Cadastro.html">Cadastro</a></li>
+                <div class="Clear"></div>
+            </ul>
         </header>
-
-        <main class="principal">
-            
-            <form class="Login">
-
-                <div class="div1">
-                    <legend>Login</legend>
-                </div>
-
-                <div class="div2">
-                    <input type="text" id="Nome"  required placeholder="Nome de usuário">
-                    <input type="password" id="Senha" required placeholder="Senha">
-                </div>
-
-                <div class="div3">
-                    <input type="submit" value="Entrar" class="Botao">
-                </div>
-            </form>
-
         
+        
+        <main class="Principal">
 
+            <div class="Área_Login">
+                <h2>Login</h2>
+                <form>
+                    <fieldset>
+                        <input type="email" required placeholder="Email de usuário">
+                        <input type="password" required placeholder="Senha de usuário">
+                    </fieldset>
+                    <input type="submit" value="Enviar" class="Botao">
+                </form>
+                <p>Não tem cadastro? <a href="../Cadastros/Cadastro.html">Cadastre-se</a></p>
+            </div>
+
+        </main>
     </body>
-
 
 </html>
