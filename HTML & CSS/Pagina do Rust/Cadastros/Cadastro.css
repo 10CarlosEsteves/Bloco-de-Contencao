@@ -1,3 +1,12 @@
+@import "../Essencial/reset.css";
+@import "../Essencial/style.css";
+
+*, *:before, *:after {
+   -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 main{
     max-width: 1000px;
     margin: 50px auto;
@@ -25,25 +34,26 @@ form{
     display: block;
 }
 
-.div1 div{
-    width: 45%;
+.fieldset1 div{
+    width: 49%;
     text-align: center;
     display: inline-block;
     border: 2px solid black;
     box-sizing: border-box;
     padding: 15px 10px;
     border-radius: 5px;
-    margin: 10px 1.25%;
+    margin: 10px 0.5%;
 }
 
-.div1 input{
-    width: 90%;
+.fieldset1 input{
+    width: 95%;
     padding: 10px 5px;
 }
 
 
-.div2 div, .div3 div{
-    width: 30%;
+.fieldset2 div, .fieldset3 div{
+    font-weight: bold;
+    width: 33%;
     text-align: center;
     display: inline-block;
     border: 2px solid black ;
@@ -52,17 +62,20 @@ form{
     margin: 10px 0.1%;
 }
 
-.div2 input, .div3 input{
-    width: 90%;
+.fieldset2 input, .fieldset3 input{
+    margin-top: 10px;
+    width: 95%;
     padding: 10px 5px;
 }
 
-.fieldset2{
+.fieldset4{
     padding: 10px 0;
 }
 
-.fieldset2 div{
-    width: 30%;
+.fieldset4 div{
+    vertical-align: top;
+    width: 33%;
+    height: 150px;
     text-align: center;
     display: inline-block;
     border: 2px solid black ;
@@ -71,13 +84,13 @@ form{
     margin: 10px 0.1%;
 }
 
-.fieldset2 div legend{
+.fieldset4 div legend{
     margin: 5px 0;
     font-weight: bold;
-
 }
 
-.fieldset2 div label{
+.fieldset4 div label{
+    width: 50%;
     text-align: justify;
     display: block;
 }
@@ -85,7 +98,7 @@ form{
 .Botao{
     width: 30%;
     padding: 15px 5px;
-    border: 1px solid black;
+    border: 1px solid red;
     border-radius: 10px;
     background-color: orange;
     font-size: 20px;
@@ -95,4 +108,6 @@ form{
 
 .Botao:hover{
     cursor: pointer;
+    transform: scale(1.1);
+    color: red;
 }
