@@ -3,9 +3,7 @@
 
     <head>
         <meta charset="UTF-8">
-        <title>Rust - Contatos</title>
-        <link rel="stylesheet" href="../Essencial/reset.css">
-        <link rel="stylesheet" href="../Essencial/style.css">
+        <title>Rust - Cadastro</title>
         <link rel="stylesheet" href="Cadastro.css">
     </head>
 
@@ -70,72 +68,69 @@
             </table>
 
             <form>
-            
                 <fieldset class="fieldset1">
-                    <div class="div1">
-
                         <div>
                             <label for="Nome">Nome</label>
                             <input type="text" id="Nome" required placeholder="Ferris">
-                        </div>
+                        </div><!--
 
-                        <div>
+                    --><div>
                             <label for="Sobrenome">Sobrenome</label>
                             <input type="text" id="Sobrenome" required placeholder="The Crab">
                         </div>
-                    </div>
+                </fieldset>
 
-                    <div class="div2">
+                <fieldset class="fieldset2">
                         <div>
                             <label for="Telefone">Telefone Para Contato</label>
                             <input type="tel" id="Telefone" required placeholder="(XX) XXXXX-XXXX">
-                        </div>
+                        </div><!--
 
-                        <div>
+                     --><div>
                             <label for="CPF">CPF</label>
                             <input type="text" id="CPF" required placeholder="000.000.000-00">
-                        </div>
+                        </div><!--
 
-                        <div>
+                     --><div>
                             <label for="DDN">Data de Nascimento</label> 
                             <input type="date" id="DDN" required placeholder="00/00/0000">
                         </div>
-                    </div>
-
-                    <div class="div3">
+                </fieldset>
+                
+                <fieldset class="fieldset3">
                         <div>
                             <label for="Email">Email Para Contato</label>
                             <input type="email" id="Email" required placeholder="theofficialcrab@domain.com">
-                        </div>
-
-                        <div>
+                        </div><!--
+    
+                     --><div>
                             <label for="Senha">Digite Sua Senha</label>
-                            <input type="password" id="Senha" required placeholder="**********************">
-                        </div>
-
-                        <div>
+                            <input type="password" id="Senha" required placeholder="•••••••••••••••••••••••">
+                        </div><!--
+    
+                     --><div>
                             <label for="RSenha">Confirme Sua Senha</label>
-                            <input type="password" id="RSenha" required placeholder="**********************">
+                            <input type="password" id="RSenha" required placeholder="•••••••••••••••••••••••">
                         </div>
-                    </div>
                 </fieldset>
 
-                <fieldset class ="fieldset2">
+
+                <fieldset class ="fieldset4">
                     <div>
                         <legend>Qual dos seguintes níveis voce se encontra?</legend>
                         <label for="Zerado"><input type="radio" value="Zerado" name="nivel" id="Zerado">Zerado</label>
                         <label for="Iniciante"><input type="radio" value="Iniciante" name="nivel" id="Iniciante">Iniciante</label>
                         <label for="Avançado"><input type="radio" value="Avançado" name="nivel" id="Avançado">Avançado</label>
                         <label for="Mestre"><input type="radio" value="Mestre" name="nivel" id="Mestre">Mestre</label>
-                    </div>
-                    <div>
+                    </div><!--
+                 --><div>
                         <legend>Escolha sua formação</legend>
                         <label for="Embedded"><input type="radio" value="Embedded" id="Iniciante">Embedded</label>
                         <label for="Cloud"><input type="radio" value="Cloud"  id="Cloud">Cloud</label>
                         <label for="Back-end"><input type="radio" value="Back-end"  id="Back-end">Back-end</label>
                         <label for="SO"><input type="radio" value="SO"  id="SO">Sistema Operational</label>
-                    </div>
-                    <div>
+                    </div><!--
+                 --><div>
                         <legend>Escolha um meio para atualizarmos</legend>
                         <label for="Discord"><input type="radio" value="Discord"  id="Discord">Discord</label>
                         <label for="WhatsApp"><input type="radio" value="WhatsApp"  id="WhatsApp">WhatsApp</label>
