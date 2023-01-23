@@ -1,2 +1,2 @@
-# Bloco-de-Contenção
+# Triade Web: HTML5, CSS3, JavaScript
 
